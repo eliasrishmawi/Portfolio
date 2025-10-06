@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio - Elias Rishmawi</title>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Elias Rishmawi">
+    <meta name="description"
+        content="Personal Website that showcases my portfolio, studies, courses, grades, interests, certificates, projects and contact information">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Elias Rishmawi, portfolio, personal website, studies, courses, grades, interests, contact, student, computer science, university of crete, HTML, CSS, web development">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- This is a copy and paste from the link in the excersice for facebook share button -->
+    <meta property="og:url" content="http://www.csd.uoc.gr/~csd5299/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="My Portfolio - Elias Rishmawi" />
+    <meta property="og:description"
+        content="Personal Website that showcases my portfolio, studies, courses, grades, interests, certificates, projects and contact information" />
+    <meta property="og:image" content="http://www.csd.uoc.gr/~csd5299/img/profile.jpg" />
+    
+</head>
+
+<body>
+    <!-- Load Facebook SDK for JavaScript (required for fb-share-button) copy and paste from the exercise -->
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <header>
+        <h1>Elias Rishmawi</h1>
+        <h2>Computer Science student at <abbr title="Computer Science Department University of Crete">csd uoc</abbr>
+        </h2>
+    </header>
+    <nav>
+        <a href="#bio">Bio</a>
+        <a href="#studies">Studies</a>
+        <a href="#awards">Awards</a>
+        <a href="#jobs">Jobs</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#interests">Interests</a>
+        <a href="#fun-facts">Fun Facts</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <!-- Bio -->
+        <article id="bio">
+            <h2>Bio</h2>
+            <div class="bio-layout">
+                <figure class="profile-figure">
+                    <img src="img/profile.jpg" alt="Elias Rishmawi - profile photo" width="300">
+                    <figcaption>Profile photo of Elias Rishmawi</figcaption>
+                </figure>
+                <div class="HeroImage">
+                    <div class="HeroText">
+                        Hello, my name is <strong class="name">Elias Tarik Rishmawi</strong>. I am a
+                        <em>student-athlete</em> dedicated to live each day
+                        <strong>better than the last</strong>, both
+                        <span class="highlight">academically</span> and
+                        <span class="highlight">athletically</span>, in order to reach my
+                        <strong>full potential</strong>.
+                    </div>
+                    <blockquote>
+                        "A bug is never just a mistake. It represents something bigger. An error of thinking that makes
+                        you
+                        who you are." - Elliot Anderson, Mr. Robot
+                    </blockquote>
+                    <dl>
+                        <dt>Age:</dt>
+                        <dd>20</dd>
+                        <dt>City:</dt>
+                        <dd>Heraklion, Crete</dd>
+                        <dt>Full proficiency languages:</dt>
+                        <dd>Arabic, English, Greek</dd>
+                    </dl>
+                    <section class="more-about-me">
+                        <h3>More about me</h3>
+                        <p>
+                            I am honored to be recognized among the <mark>top students</mark> in my class.
+                            My studies have strengthened my <em>passion for technology</em>,
+                            guiding me toward fields like <span class="highlight">Java development</span>,
+                            <span class="highlight">web development</span>,
+                            <abbr title="Artificial Intelligence" class="highlight">AI</abbr>,
+                            <abbr title="Machine Learning" class="highlight">ML</abbr>, and
+                            <span class="highlight">algorithms</span>.
+                            Beyond the classroom, I channel the same <strong>drive and focus</strong> into my
+                            <em>athletic pursuits</em> — representing
+                            <strong>Palestine in international swimming competitions</strong> and maintaining
+                            a consistent <span class="highlight">gym training routine</span> have taught me
+                            <strong>discipline</strong>, <strong>perseverance</strong>, and the
+                            <em>value of hard work</em> in every aspect of life.
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </article>
+        <section id="studies">
+            <h2>Studies</h2>
+            <table border="1">
+                <tr>
+                    <th>Course Name</th>
+                    <th>Code</th>
+                    <th>Grade</th>
+                    <th>Semester</th>
+                </tr>
+                <tr>
+                    <td>Calculus I</td>
+                    <td>HY-110</td>
+                    <td>10</td>
+                    <td>1st</td>
+                </tr>
+                <tr>
+                    <td>Digital Design</td>
+                    <td>HY-120</td>
+                    <td>8.5</td>
+                    <td>1st</td>
+                </tr>
+                <tr>
+                    <td>English I</td>
+                    <td>HY-108</td>
+                    <td>9</td>
+                    <td>1st</td>
+                </tr>
+                <tr>
+                    <td>Introduction to Computer Science</td>
+                    <td>HY-100</td>
+                    <td>9</td>
+                    <td>1st</td>
+                </tr>
+                <tr>
+                    <td>Physics I</td>
+                    <td>HY-112</td>
+                    <td>10</td>
+                    <td>1st</td>
+                </tr>
+
+                <tr>
+                    <td>English II</td>
+                    <td>HY-109</td>
+                    <td>7</td>
+                    <td>2nd</td>
+                </tr>
+                <tr>
+                    <td>Computer Organization</td>
+                    <td>HY-225</td>
+                    <td>8.5</td>
+                    <td>2nd</td>
+                </tr>
+                <tr>
+                    <td>Programming</td>
+                    <td>HY-150</td>
+                    <td>10</td>
+                    <td>2nd</td>
+                </tr>
+                <tr>
+                    <td>Discrete Mathematics</td>
+                    <td>HY-118</td>
+                    <td>8</td>
+                    <td>2nd</td>
+                </tr>
+                <tr>
+                    <td>Linear Algebra</td>
+                    <td>HY-119</td>
+                    <td>10</td>
+                    <td>2nd</td>
+                </tr>
+
+                <tr>
+                    <td>Data Structures</td>
+                    <td>HY-240</td>
+                    <td>9.5</td>
+                    <td>3rd</td>
+                </tr>
+                <tr>
+                    <td>English III</td>
+                    <td>HY-208</td>
+                    <td>9</td>
+                    <td>3rd</td>
+                </tr>
+                <tr>
+                    <td>Object-Oriented Programming</td>
+                    <td>HY-252</td>
+                    <td>10</td>
+                    <td>3rd</td>
+                </tr>
+                <tr>
+                    <td>Probability</td>
+                    <td>HY-217</td>
+                    <td>9.5</td>
+                    <td>3rd</td>
+                </tr>
+                <tr>
+                    <td>Theory of Computation</td>
+                    <td>HY-280</td>
+                    <td>6</td>
+                    <td>3rd</td>
+                </tr>
+
+                <tr>
+                    <td>Applied Mathematics for Engineers</td>
+                    <td>HY-215</td>
+                    <td>8.5</td>
+                    <td>4th</td>
+                </tr>
+                <tr>
+                    <td>English IV</td>
+                    <td>HY-209</td>
+                    <td>10</td>
+                    <td>4th</td>
+                </tr>
+                <tr>
+                    <td>Software Technology Laboratory</td>
+                    <td>HY-255</td>
+                    <td>8</td>
+                    <td>4th</td>
+                </tr>
+                <tr>
+                    <td>Logic</td>
+                    <td>HY-180</td>
+                    <td>8</td>
+                    <td>4th</td>
+                </tr>
+                <tr>
+                    <td>Calculus II</td>
+                    <td>HY-111</td>
+                    <td>8.5</td>
+                    <td>4th</td>
+                </tr>
+            </table>
+
+        </section>
+        <!-- Awards -->
+        <section id="awards">
+            <h2>Awards and Scholarships</h2>
+            <ul class="awards-list">
+                <li>
+                    <strong>“Stelios Orphanoudakis” Distinguished Undergraduate Scholarship (2024-2025)</strong><br>
+                    <em>Awarded each year to the top three second-year, third-year and fourth-year undergraduate
+                        students enrolled in the Computer Science Department, University of Crete,
+                        <br>Issued by <abbr title="Institute of Computer Science">ICS</abbr> - <abbr
+                            title="Foundation for Research and Technology Hellas">FORTH</abbr>.</em>
+                </li>
+                <li>
+                    <strong>7th Place in Bethlehem, Tawjihi; General Secondary Education Certificate Examination in
+                        Palestine (2022)</strong><br>
+                    <em>Ranked among the top students in the region, demonstrating dedication and academic prowess.</em>
+                </li>
+                <li>
+                    <strong>National Swimming Champion (2010 - present)</strong><br>
+                    <em>Represented Palestine in international competitions, earning multiple national gold medals and
+                        setting
+                        national records.</em>
+                </li>
+            </ul>
+        </section>
+        <!-- Jobs -->
+        <section id="jobs">
+            <h2>Job Experience</h2>
+            <ul class="jobs-list">
+                <li>
+                    <strong>Swimming Coach — YMCA <span class="location">Beit Sahour, Palestine</span></strong> <span
+                        class="period">(2022-present)</span>
+                    <ul>
+                        <li>Coached swimmers across ages and levels, from beginners to competitive juniors.</li>
+                        <li>Developed tailored training programs and technique drills.</li>
+                        <li>Fostered a positive and safe team environment.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Lifeguard — YMCA <span class="location">Beit Sahour, Palestine</span></strong> <span
+                        class="period">(2024-2025)</span>
+                    <ul>
+                        <li>Monitored pool activities and enforced safety guidelines.</li>
+                        <li>Responded to emergencies and administered first aid when required.</li>
+                        <li>Maintained a safe and clean aquatic environment.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Hospitality Assistant — <a
+                            href="https://www.booking.com/hotel/ps/dar-sitti-aziza.en-gb.html" target="_blank"
+                            rel="noopener noreferrer" class="location-link">Dar Sitti Aziza Hotel</a>, <span
+                            class="location">Bethlehem,
+                            Palestine</span></strong> <span class="period">(Summers 2018-2025)</span>
+                    <ul>
+                        <li>Managed reservations and supported check-in/check-out.</li>
+                        <li>Maintained guest rooms to high cleanliness standards.</li>
+                        <li>Assisted with breakfast preparation and service.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Certifications -->
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul class="certification-list">
+                <li>Life Guard Certificate <abbr title="Hellenic Lifeguard Academy">ENAK</abbr> <a
+                        href="links/lifeguard.pdf" target="_blank" rel="noopener noreferrer"
+                        class="view-link">(view)</a>.</li>
+                <li>B2 Greek Language Proficiency Certificate <a href="links/B2GreekCertificate.pdf" target="_blank"
+                        rel="noopener noreferrer">(view)</a>,
+                    <br>Greek Language attendance certificate <a href="links/GreekAttendanceCertificate.pdf"
+                        target="_blank" rel="noopener noreferrer" class="view-link">(view)</a>,
+                    <br><em>Both issued by the School of Modern Greek Language <abbr
+                            title="Aristotle University Of Thessaloniki">AUTH</abbr></em>.
+                </li>
+            </ul>
+        </section>
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ol class="projects-list">
+                <li><strong>Java Board Game - </strong>A simple board game implemented in <em>Java</em> using Swing for
+                    the GUI.</li>
+                <li><strong>Greek Election Simulator - </strong>A Simulator for the Greek electoral process implemented
+                    in <em>C</em>,
+                    allowing
+                    users to simulate elections and view results.</li>
+            </ol>
+            <p>You can find my projects on my GitHub profile: <a href="https://github.com/eliasrishmawi" target="_blank"
+                    rel="noopener noreferrer">github.com/eliasrishmawi</a></p>
+        </section>
+
+        <!-- Interests -->
+        <section id="interests">
+            <h2>Interests, skills and Hobbies</h2>
+            <ol class="interests-list">
+                <li>Java Development</li>
+                <li>Web Development</li>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning</li>
+                <li>Sports</li>
+                <ul>
+                    <li>Competitive Swimming</li>
+                    <li>BodyBuilding and hypertrophy training</li>
+                    <li>Calisthenics</li>
+                </ul>
+                <li>Nutrition</li>
+                <li>Video Editing of Airbnb apartments for advertisement</li>
+            </ol>
+        </section>
+        <aside id="fun-facts">
+            <h2>Fun Facts</h2>
+            <ul class="facts-layout">
+                <li>
+                    <div class="audio-container">
+                        <h3><em>Fav audio atm</em></h3>
+                        <audio controls>
+                            <source src="audio/magic.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <p class="caption"><em>"magic" by Medasin Music</em></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="video-container">
+                        <h3><em>Fav movie clip atm</em></h3>
+                        <video controls width="560" height="315">
+                            <source src="video/movieVid.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="caption"><em>Tyler Durden - Fight Club</em></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="youtube-container">
+                        <h3><em>Fav Swimming race atm</em></h3>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/N0LCjQ89G58?si=9rofa-aRARdZFYP7"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </li>
+
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <div id="contact">
+            <h2>Contact Information</h2>
+            <ul class="contact-list">
+                <li><strong>Personal Email: </strong><a href="mailto:rishmawiet@gmail.com">rishmawiet@gmail.com</a></li>
+                <li><strong>University Email: </strong><a href="mailto:csd5299@csd.uoc.gr">csd5299@csd.uoc.gr</a></li>
+                <li><strong>Phone: </strong><a href="tel:+306955715925">+30 695 571 5925</a></li>
+                <li><strong>Facebook: </strong><a href="https://www.facebook.com/elias.rishmawi.71" target="_blank"
+                        rel="noopener noreferrer">elias.rishmawi.71</a>
+                </li>
+                <li><strong>Instagram: </strong><a href="https://instagram.com/elias.rishmawi" target="_blank"
+                        rel="noopener noreferrer">@elias.rishmawi</a></li>
+                <li><strong>LinkedIn: </strong><a href="https://linkedin.com/in/eliasrishmawi" target="_blank"
+                        rel="noopener noreferrer">eliasrishmawi</a></li>
+            </ul>
+            <div class="social-share">
+                <!-- Facebook Share Button copy and paste from the exercise -->
+                <div class="fb-share-button" data-href="http://www.csd.uoc.gr/~csd5299/" data-layout="button_count">
+                </div>
+            </div>
+        </div>
+        <p id ="copyright">&copy; 2025 Elias Rishmawi. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
