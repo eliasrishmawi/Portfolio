@@ -81,13 +81,13 @@ a:hover { color: var(--red-600); }
 }
 .view-link:hover, .location-link:hover { color: var(--red-600); }
 
-table { width: 100%; border-collapse: collapse; margin-top: 0.75rem; border-radius: 10px; overflow: hidden; }
+table { border: 1px; width: 100%; border-collapse: collapse; margin-top: 0.75rem; border-radius: 10px; overflow: hidden; }
 th, td { border: 1px solid var(--border); padding: 0.5rem 0.6rem; text-align: center; }
 th { background: var(--red-700); color: #fff; }
 tr:nth-child(even) td { background: #2a2323; }
 th:first-child, td:first-child { text-align: left; text-shadow: 0 0.2em var(--text-shadow);font-weight:500;}
 
-.youtube-container iframe { max-width: 100%; border-radius: 8px; }
+.youtube-container iframe { width: 100%; max-width: 560px; height: 315px; border-radius: 8px; }
 .video-container video { width: 100%; max-width: 560px;  border-radius: 8px; }
 .audio-container audio { width: 100%; max-width: 560px;}
 .caption { font-size: 0.9rem; color: var(--muted); margin-top:0;}
